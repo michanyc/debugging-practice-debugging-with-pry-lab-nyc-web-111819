@@ -1,4 +1,4 @@
-require "pry"
+
 class GasStation
 
   # Remember which methods this "magic command", "attr_reader" creates.
@@ -11,7 +11,7 @@ class GasStation
   def initialize(brand, unleaded_price)
     @brand = brand
     @unleaded_price = unleaded_price
-    binding.pry
+
   end
 
 end
