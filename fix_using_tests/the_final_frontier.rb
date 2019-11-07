@@ -19,7 +19,6 @@ def greet_crew(crew)
 end
 
 def engage
-  binding.pry
   generate_star_date
   state_log
   greet_crew
