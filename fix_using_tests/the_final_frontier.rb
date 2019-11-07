@@ -24,4 +24,3 @@ def engage
   greet_crew(crew)
 end
 engage
-end
