@@ -1,4 +1,4 @@
-
+require "pry"
 
 super_mario_party
 
