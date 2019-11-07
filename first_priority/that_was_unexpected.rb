@@ -26,7 +26,7 @@ class Person
     else
       10.times do
         "not a ballin candy lover"
-      binding.pry
+    
     end
   end
 end
