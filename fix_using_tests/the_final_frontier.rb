@@ -21,6 +21,6 @@ end
 def engage
   binding.pry
   generate_star_date
-  state_log(date)
-  greet_crew(crew)
+  state_log
+  greet_crew
 end
