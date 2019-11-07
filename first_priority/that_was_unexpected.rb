@@ -4,8 +4,8 @@ class Person
   attr_accessor :name, :candy_lover
 
   def initialize(name, candy_lover)
-    name = name
-    candy_lover = candy_lover
+    name == name
+    candy_lover == candy_lover
       binding.pry
   end
 
