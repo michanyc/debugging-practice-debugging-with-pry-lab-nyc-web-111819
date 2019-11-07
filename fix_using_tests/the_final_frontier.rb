@@ -1,4 +1,4 @@
-
+require 'pry'
 def generate_star_date
 
   (rand(100000) + 400000) / 10.0
@@ -19,6 +19,7 @@ def greet_crew(crew)
 end
 
 def engage
+  generate_star_date
   state_log(date)
   greet_crew(crew)
 end
